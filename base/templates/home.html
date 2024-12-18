@@ -1,0 +1,33 @@
+{% extends 'main.html' %}
+
+{% block content%}
+
+
+    <div class="TaskList">
+        <h2>Task List</h2>
+        {% for i in data %}
+
+        <div class="task">
+            <p class="title">
+                {{i.title}} 
+            </p>
+            <p class="desc">
+                {{i.desc}} 
+            </p>
+            <div class="buttons">
+
+                <a class="Edit" href="{% url 'edittask' i.id %}">Edit</a>
+
+                <a class="Completed" href="{% url 'complete' i.id %}">Task Completed</a>
+                
+                <a class="Delete" href="{% url 'conform' i.id %}">Delete</a>
+
+            </div>
+        </div>
+        
+
+        {% endfor  %}
+
+    </div>
+    
+{% endblock content%}
