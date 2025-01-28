@@ -24,7 +24,7 @@ Developed a simple task management web application using Python and Django to he
 
 - Task history page (deleted task list here)
   
-![App Screenshot](https://github.com/RohitRawat-08/Task_Management/blob/master/static/ss/todo4.PNG)
+![App Screenshot](https://github.com/RohitRawat-08/Task_Management/blob/master/static/ss/todo4.png)
 
 - Task complete page (completed task list here)
   
